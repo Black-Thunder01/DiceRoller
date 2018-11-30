@@ -27,8 +27,8 @@ def main():
 
 	while True:
 		if b1.clicked(win.getMouse()):
-			d1.setValue(MSdie(6).roll())
-			d2.setValue(MSdie(6).roll())
+			d1.setValue(MSdie().setValue())
+			d2.setValue(MSdie().setValue())
 		elif b2.clicked(win.getMouse()):
 			return False
 
